@@ -1,0 +1,80 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+header{
+  height:50px;
+  background-color: #FF9A4B;
+}
+
+.top{
+  width:960px;
+  margin:50px auto;
+  display: flex;
+justify-content: center
+}
+
+.top-box{
+  width:300px;
+  margin-right:30px;
+padding:10px;
+  position:relative;
+  background-color: #EEEEEE;
+}
+
+.top-image1{
+  height:150px;
+  background-image: url(img/flow01.png);
+    background-size: cover;
+  background-position: bottom;
+}
+
+.top-image2{
+  height:150px;
+  background-image: url(img/flow02.png);
+    background-size: cover;
+  background-position: bottom;
+}
+
+.top-image3{
+  height:150px;
+  background-image: url(img/flow03.png);
+    background-size: cover;
+  background-position: bottom;
+}
+
+.top-message{
+  position:absolute;
+  background-color: #FF9A4B;
+  color: white;
+  left:0px;
+  top:0px;
+}
+
+.top-item{
+  margin:15px 5px 5px 5px;
+}
+
+footer{
+ background-color: #AAAAAA;
+ height: 50px;
+}
+
+
+@media screen and (max-width:768px){
+  header{
+    width:100%;
+  }
+  
+  .top{
+    display: block;
+    width:100%;
+  }
+  
+  .top-box{
+    width:90%;
+   margin:10px auto;
+  }
+}
